@@ -1,0 +1,12 @@
+%h2 Details about #{@car.title}
+
+%ul#details
+  %li 
+     Body Type:
+     = @car.body
+  
+%h3 Comments:
+
+%p#comments = @car.comments
+
+= link_to 'Back to car list', cars_path

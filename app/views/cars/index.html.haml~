@@ -1,0 +1,19 @@
+-# This file is app/views/cars/index.html.haml
+%h1 All Cars
+
+%table#cars
+  %thead
+    %tr
+      %th Car Make
+      %th Model
+      %th Year
+      %th Type
+      %th More Info
+  %tbody
+    - @cars.each do |car|
+      %tr
+        %td= car.make
+        %td= car.model
+        %td= car.year
+        %td= car.body
+        %td= link_to "More about #{car.make} #{car.model}", car_path(car)
