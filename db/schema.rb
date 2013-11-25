@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131025183742) do
+ActiveRecord::Schema.define(:version => 20131125193154) do
 
   create_table "cars", :force => true do |t|
     t.string   "make"
@@ -20,6 +20,15 @@ ActiveRecord::Schema.define(:version => 20131025183742) do
     t.string   "body"
     t.string   "avg_price"
     t.text     "comments"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "users", :force => true do |t|
+    t.string   "name"
+    t.string   "email"
+    t.string   "encrypted_password"
+    t.string   "salt"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

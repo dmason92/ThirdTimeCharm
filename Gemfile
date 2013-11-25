@@ -17,13 +17,16 @@ group :assets do
 end
 
 gem 'jquery-rails'
-
+gem 'simple_form'
+gem 'rails-footnotes', '>= 3.7.9', :group => :development
+gem 'bootstrap-sass', '~> 2.3.1.0'
 #use Haml for templates
      gem 'haml'
      # use Ruby debugger
      group :development, :test do
      	gem 'debugger'
      end
+gem 'rspec-rails', "~> 2.10"
 # Use unicorn as the web server
 # gem 'unicorn'
 
@@ -33,3 +36,4 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
+gem 'bcrypt-ruby', :require => 'bcrypt'

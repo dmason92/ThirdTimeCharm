@@ -1,0 +1,14 @@
+%h2 Upload New Car
+
+= form_tag cars_path, :method => :post do
+
+  = label :car, :make, 'Title'
+  = text_field :car, :make
+
+  = label :car, :model, 'Model'
+  = text_field :car, :model
+  
+  = label :car, :year, 'Year'
+  = text_field :car, :year
+
+  = submit_tag 'Save Changes'

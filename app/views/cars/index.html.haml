@@ -17,3 +17,7 @@
         %td= car.year
         %td= car.body
         %td= link_to "More about #{car.make} #{car.model}", car_path(car)
+  
+= link_to 'Add new car', new_car_path
+= link_to 'Sign up', new_user_path
+= link_to 'Sign in', new_session_path
