@@ -135,7 +135,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bcrypt-ruby
   bootstrap-sass (~> 2.3.1.0)
   coffee-rails (~> 3.1.0)
   debugger

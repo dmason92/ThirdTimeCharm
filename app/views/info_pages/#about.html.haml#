@@ -1,0 +1,11 @@
+app/views/info_pages$ emacs home.html.hamlsaasbook@saasbook:~/Documents/CarTalk/app/views/info_pages$ emacs home.html.hamlsaasbook@saasbook:~/Documents/CarTalk/app/views/info_pages$ ls
+about.html.erb  help.html.erb  home.html.erb~  home.html.haml  home.html.haml~
+saasbook@saasbook:~/Documents/CarTalk/app/views/info_pages$ rm home.html.erb~ 
+saasbook@saasbook:~/Documents/CarTalk/app/views/info_pages$ ls
+about.html.erb  help.html.erb  home.html.haml  home.html.haml~
+saasbook@saasbook:~/Documents/CarTalk/app/views/info_pages$ emacs help.html.hamlsaasbook@saasbook:~/Documents/CarTalk/app/views/info_pages$ ls
+about.html.erb  help.html.erb  help.html.haml  home.html.haml  home.html.haml~
+saasbook@saasbook:~/Documents/CarTalk/app/views/info_pages$ rm about.html.erb 
+saasbook@saasbook:~/Documents/CarTalk/app/views/info_pages$ ls
+help.html.erb  help.html.haml  home.html.haml  home.html.haml~
+saasbook@saasbook:~/Documents/CarTalk/app/views/info_pages$ 

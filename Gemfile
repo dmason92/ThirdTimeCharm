@@ -36,4 +36,4 @@ gem 'rspec-rails', "~> 2.10"
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-gem 'bcrypt-ruby', :require => 'bcrypt'
+#gem 'bcrypt-ruby', :require => 'bcrypt'

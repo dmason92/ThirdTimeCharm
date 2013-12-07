@@ -1,0 +1,5 @@
+%h1 About Us!
+%p This website was developed with a simple goal in mind:
+to unite people who share a common interest.
+
+=image_tag asset_path('Fast_cars.gif')

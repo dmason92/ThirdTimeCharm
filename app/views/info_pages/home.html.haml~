@@ -1,0 +1,11 @@
+%h1 Welcome to Car Talk!
+%p A place for the car enthusiast in you!
+%p To begin, either sign in, sign up, or view cars.
+
+=image_tag asset_path('Fast_cars.gif')
+%p
+= button_to 'Sign up', new_user_path
+= button_to 'Sign in', new_session_path
+= link_to 'View cars', cars_path
+= link_to 'About us', info_pages_about
+= link_to 'Help', info_pages_help

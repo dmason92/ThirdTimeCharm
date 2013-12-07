@@ -1,0 +1,4 @@
+%h1 Help!
+%p This page will be used for help purposes.
+
+=image_tag asset_path('Fast_cars.gif')
